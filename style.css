@@ -32,7 +32,7 @@ cursor: pointer;}
     align-items: center;
 flex-direction: row-reverse;padding: 10px;}
 .about{text-align: center;padding: 20px;}
-.aboutinfo{padding: 5px;}
+
 .pinfo{padding: 10px;}
 .btn2{padding: 10px 20px;
     background-color: red;
@@ -40,3 +40,20 @@ flex-direction: row-reverse;padding: 10px;}
     border-radius: 5px;
 cursor: pointer;}
     .btn2:hover{ color: black;}
+    .box{width: 230px;
+        margin-top: 200px;
+    height: 280px;
+box-shadow: 4px 4px 15px rgb(209, 206, 206);
+background-color: black;
+text-align: center;padding: 15px;
+color: white;}
+.icon{width: 100px;}
+.btn3{padding: 5px; color: grey;margin-top: 10px; background-color: grey;color: white; cursor: pointer;}
+.btn3:hover{color: black;}
+.box-title{
+    padding: 10px;
+}
+.service-container{display: flex;
+justify-content: space-around;padding: 20px; background-image: url("./images/background.png") ,linear-gradient(45deg,hwb(0 10% 90%),#000);
+}
+.about{text-align: center; padding: 20px; color: white;}
