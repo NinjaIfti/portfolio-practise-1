@@ -1,59 +1,150 @@
-*{margin: 0px;
-padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.menu-container{background-color: rgb(48, 46, 46); color: white; list-style: none;padding: 20px; display: flex; align-items: center; justify-content: space-around; 
+
+.menu-container {
+    background-color: rgb(48, 46, 46);
+    color: white;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.logo-photo{width: 100px;
+
+.logo-photo {
+    width: 100px;
 }
-.menus{display: flex;}
-.items{margin: 10px;padding: 7px;font-size: 18px;cursor:pointer;}
-.items:hover{color: blue;}
-.banner-img{width: 300px;}
-.banner-container{display: flex;justify-content: space-around;
+
+.menus {
+    display: flex;
+}
+
+.items {
+    margin: 10px;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.items:hover {
+    color: blue;
+}
+
+.banner-img {
+    width: 300px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
     height: 100vh;
     align-items: center;
     /* border: 2px solid grey; */
     color: white;
     background-image: url("./images/background.png"),
-    linear-gradient(45deg,hwb(0 22% 78%),#000 );
+        linear-gradient(45deg, hwb(0 22% 78%), #000);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.title{font-size: 55px;
-    font-weight: bold;}
-    .descrip{font-size: 18px; margin-top: 15px; margin-bottom: 15px;}
-    .btn{padding: 10px 20px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-cursor: pointer;}
-    .btn:hover{ color: black;}
-    .about-container{display: flex;justify-content: space-around;
-    align-items: center;
-flex-direction: row-reverse;padding: 10px;}
-.about{text-align: center;padding: 20px;}
 
-.pinfo{padding: 10px;}
-.btn2{padding: 10px 20px;
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.descrip {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
     background-color: red;
     color: white;
     border-radius: 5px;
-cursor: pointer;}
-    .btn2:hover{ color: black;}
-    .box{width: 230px;
-        margin-top: 200px;
-    height: 280px;
-box-shadow: 4px 4px 15px rgb(209, 206, 206);
-background-color: black;
-text-align: center;padding: 15px;
-color: white;}
-.icon{width: 100px;}
-.btn3{padding: 5px; color: grey;margin-top: 10px; background-color: grey;color: white; cursor: pointer;}
-.btn3:hover{color: black;}
-.box-title{
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
     padding: 10px;
 }
-.service-container{display: flex;
-justify-content: space-around;padding: 20px; background-image: url("./images/background.png") ,linear-gradient(45deg,hwb(0 10% 90%),#000);
+
+.about {
+    text-align: center;
+    padding: 20px;
 }
-.about{text-align: center; padding: 20px; color: white;}
+
+.pinfo {
+    padding: 10px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: black;
+}
+
+.box {
+    width: 230px;
+    margin-top: 10px;
+    
+    box-shadow: 4px 4px 15px rgb(209, 206, 206);
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.icon {
+    width: 100px;
+}
+
+.btn3 {
+    padding: 5px;
+    color: grey;
+    margin-top: 40px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    color: black;
+}
+
+.box-title {
+    padding: 10px;
+}
+
+.service-container {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 10px;
+    background-image: url("./images/background.png"), linear-gradient(45deg, hwb(0 10% 90%), #000);
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.about-service{font-size: 40px; text-align: center; color: white;margin-top: 10px;padding: 10px;}
+.boxes{display: flex;justify-content: space-around;}
+.box-description{margin-bottom: 10px;}
